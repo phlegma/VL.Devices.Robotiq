@@ -391,11 +391,6 @@
               <Pin Id="NkIHtXyf1SPM8KJTDB81ny" Name="Context" Kind="OutputPin" />
               <Pin Id="UG7Z1OSkmsMLUqBKVIccOm" Name="State" Kind="InputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="BlLDcfVfAuwM4jZT6KTcyp">
               <Fragment Id="QDc4LvO6E2vPGG0EJSTacB" Patch="BUgfTGKNsYTOps8M7zN1cC" Enabled="true" />
               <Fragment Id="TOmNL6lA8IQPBYhaI3pBbT" Patch="PjT1fQwz4HQQdk8BlRZL7x" Enabled="true" />
@@ -904,7 +899,7 @@
             <Pin Id="Vj0XbrNNpzAPsRFLGl6vsm" Name="Output" Kind="StateOutputPin" />
             <Pin Id="E1UTZpXtndAOGl3neMh3X2" Name="Value" Kind="OutputPin" />
           </Node>
-          <Node Bounds="851,747,85,19" Id="DChnX7cNH1YMzRKLIQ53ku">
+          <Node Bounds="851,747,105,19" Id="DChnX7cNH1YMzRKLIQ53ku">
             <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SimpleOptions" />
@@ -916,6 +911,7 @@
             <Pin Id="RFUbX9KzbRdNSwng2ZX34Q" Name="Speed" Kind="InputPin" />
             <Pin Id="IRmmqZn4KhLLi3FlN0DuQA" Name="Force" Kind="InputPin" />
             <Pin Id="FkBzLy5wcDOPHRmyP8y49F" Name="Output" Kind="OutputPin" />
+            <Pin Id="TRLDQ98UnXWLpw0rw2hmmz" Name="Go To" Kind="InputPin" />
           </Node>
           <Node Bounds="853,841,93,19" Id="NHh6D9BLm04NB6AiSpHiKy">
             <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
@@ -923,9 +919,10 @@
               <Choice Kind="ProcessAppFlag" Name="GripperFeedback" />
             </p:NodeReference>
             <Pin Id="R9GXLioOIIqMgH3dAqjkNO" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JT7IdDjEs4TLHiTyvnD6Nu" Name="Context" Kind="InputPin" />
+            <Pin Id="C9xNuJLJeSxMtM3CYli3w8" Name="State" Kind="InputPin" />
             <Pin Id="E80qzTJTPHJPjgODeZtT6Y" Name="InuptRegister" Kind="InputPin" />
-            <Pin Id="KpoIRsKbfd3McX9uE4vn4U" Name="Positions" Kind="OutputPin" />
-            <Pin Id="Lhtg8axzIcnPg4Z9sFoS43" Name="Initialization" Kind="OutputPin" />
+            <Pin Id="SmZLyv1RznhLWPdIvgCB9N" Name="Context" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="DDbwxJRi07LO5KSRZgs7jl" Name="Create" ParticipatingElements="UKx6yHV1CQXLK8Un4PGZxY" />
