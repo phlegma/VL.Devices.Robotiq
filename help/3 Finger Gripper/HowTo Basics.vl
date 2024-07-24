@@ -26,8 +26,8 @@
             <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
             <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
             <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
-            <Pin Id="RXmnDCYkD9cQOM6kEvhRJ2" Name="Output Register" Kind="OutputPin" />
-            <Pin Id="OREZUQBz0zoQR9Y7NIqjpL" Name="Output Register Binary" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="RXmnDCYkD9cQOM6kEvhRJ2" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="OREZUQBz0zoQR9Y7NIqjpL" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="547,320,105,19" Id="IOS2hC9Rii6O3Sw66yLtWn">
             <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">

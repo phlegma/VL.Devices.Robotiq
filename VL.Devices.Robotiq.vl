@@ -1516,8 +1516,8 @@
             <Pin Id="A47k3y4wOKlMrMyMdHPQDI" Name="IP Adresse" Kind="InputPin" Bounds="634,116" />
             <Pin Id="FPdNaiW9BlOOG3kqQavqmh" Name="Is Connected" Kind="OutputPin" />
             <Pin Id="DDwTn70xFKwLe9QrPU5Psu" Name="Read Input Register Period" Kind="InputPin" DefaultValue="0.1" />
-            <Pin Id="HL1tAHrXrY1LfFS2EJn4IQ" Name="Output Register" Kind="OutputPin" />
-            <Pin Id="OLDH0VleansMp1jxThMcuh" Name="Output Register Binary" Kind="OutputPin" Visibility="Optional" />
+            <Pin Id="HL1tAHrXrY1LfFS2EJn4IQ" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="OLDH0VleansMp1jxThMcuh" Name="Input Register Binary" Kind="OutputPin" Visibility="Optional" />
             <Pin Id="EJuMhuoBUpZO95qdY5zMAF" Name="OutputRegister" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />

@@ -26,8 +26,8 @@
             <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
             <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
             <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
-            <Pin Id="RXmnDCYkD9cQOM6kEvhRJ2" Name="Output Register" Kind="OutputPin" />
-            <Pin Id="OREZUQBz0zoQR9Y7NIqjpL" Name="Output Register Binary" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="P04ZLuReOeqNRWFVbBSqTl" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="QcjAqddJwIuLkyYPLpYCrA" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="345,289,185,19" Id="IOS2hC9Rii6O3Sw66yLtWn">
             <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
@@ -132,13 +132,13 @@
         <Link Id="AHqRLOcVZ7DNSCgJIllPEI" Ids="GkkIWvNZKvcO0xB6oPl0cJ,RJ9nuMXUqNuLtYXWS1adXz" />
         <Link Id="B8IRwHRALadPde9uO99aBT" Ids="EbFJFWr137YMZXByAHmKFI,N1egaWiwE9LMVxobur4gWU" />
         <Link Id="VuIg8XyYQbAQXieo8MepHO" Ids="E9ImDAtE3MMQFokQQBKIBb,IF056QjauqLPtq2OGykpZh" />
-        <Link Id="Kwk3iy2BDI2MGIrfaMc4N4" Ids="RXmnDCYkD9cQOM6kEvhRJ2,OHVh5sqqk2YNJWht5C4YzJ" />
         <Link Id="UmPMF5Gt3WANV3PKvchZv9" Ids="BCyAqQ9glzPOEHZ5JAYzGm,N7nzvD6VsX0MbiQjAbua8n" />
         <Link Id="DnKvpAs57ryQUoq82voK6z" Ids="GFn0Gr2ad6RPzYPOcOWlQV,DZY9ZlvpJ7WPiibxIlirzY" />
         <Link Id="QpYVNbOubY6PAbSgVjH12w" Ids="Ka01dlXx7eOPLJ3QuJUVFR,QBxEc6NgPvhL72BJKyg0MG" />
         <Link Id="HF1uBi8ehD1L2EsOQxpHKq" Ids="MlbfP0dI0RPP2aEceQq5AF,Ql5dlTFOWLAPAmzVDYPwjq" />
         <Link Id="ObwOp3omgpjLwvrCOSCHSl" Ids="Eemy7QzSUXFMhiIh9ZDDOq,IQps5V3tNKCLe87uf62Tmu" />
         <Link Id="UgAAHw5tEqgMdAGuajj8pX" Ids="Mrrq3XkvVqhLj4cmjNeYUi,N5pZPO5lvnxNaKzsowDSwt" />
+        <Link Id="Vdp6HsmDJXILDkqGnSid9u" Ids="P04ZLuReOeqNRWFVbBSqTl,OHVh5sqqk2YNJWht5C4YzJ" />
       </Patch>
     </Node>
   </Patch>

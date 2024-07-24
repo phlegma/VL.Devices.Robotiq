@@ -26,8 +26,8 @@
             <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
             <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
             <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
-            <Pin Id="RXmnDCYkD9cQOM6kEvhRJ2" Name="Output Register" Kind="OutputPin" />
-            <Pin Id="OREZUQBz0zoQR9Y7NIqjpL" Name="Output Register Binary" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="HuhUT9Yw0y0PJ5UTamN5ZY" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="PAkur40P79SLIV6QUEuab7" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Pad Id="VATspnlk8PjPHJiOpq59oo" Comment="Enable" Bounds="104,464,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -136,7 +136,6 @@
         <Link Id="DH9ZWs5HrTqOrDHZBrW00M" Ids="UynbCxdsbKgQGPALgzGLGu,HOpVWKoHXL8LECMv7uhy7g" />
         <Link Id="AHqRLOcVZ7DNSCgJIllPEI" Ids="GkkIWvNZKvcO0xB6oPl0cJ,RJ9nuMXUqNuLtYXWS1adXz" />
         <Link Id="VuIg8XyYQbAQXieo8MepHO" Ids="E9ImDAtE3MMQFokQQBKIBb,IF056QjauqLPtq2OGykpZh" />
-        <Link Id="Kwk3iy2BDI2MGIrfaMc4N4" Ids="RXmnDCYkD9cQOM6kEvhRJ2,OHVh5sqqk2YNJWht5C4YzJ" />
         <Link Id="Bcg2dWNdVjNNe7sZinHAxD" Ids="UDra1OG9loTMcBWY7l62KU,FhhBiGwMCeeMOM1TvrOwzS" />
         <Link Id="Ntka5IM2ejCM9SyJ61c9nf" Ids="AG7y9XaLUFTQEk85eXTVNA,G1jAjM4ado1L3wnwZwYZLh" />
         <Link Id="JyjfHKvSpZ6NtdJgrveC5l" Ids="VjHU1nnFklbLxWcx3hNCgs,UFPud9vOi4IMYR0EEXf6hK" />
@@ -145,6 +144,7 @@
         <Link Id="SHH0kUGYbXmOCdvhfgQ01A" Ids="EETTZp3hzSUNWSaloBv22o,TNcem0v6Ct1LHQv63bNKeb" />
         <Link Id="SSNpWWZRyuPMDc1Y6QeMPo" Ids="Eemy7QzSUXFMhiIh9ZDDOq,BTyJbMCjQ6uOLE7Ct0z78M" />
         <Link Id="A0UyPxxLeKMOSH7VYNvNWI" Ids="Mrrq3XkvVqhLj4cmjNeYUi,Lzp1Bpe66XaOTVHPcKt07J" />
+        <Link Id="L8V5yQfZEIdNUXAJPffRZk" Ids="HuhUT9Yw0y0PJ5UTamN5ZY,OHVh5sqqk2YNJWht5C4YzJ" />
       </Patch>
     </Node>
   </Patch>

@@ -26,8 +26,8 @@
             <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
             <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
             <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
-            <Pin Id="RXmnDCYkD9cQOM6kEvhRJ2" Name="Output Register" Kind="OutputPin" />
-            <Pin Id="OREZUQBz0zoQR9Y7NIqjpL" Name="Output Register Binary" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="OaFn1Iu1LNFMXeEHlH1Pdx" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="VUvzAPJbV4RQCmITSJoPD2" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
           </Node>
           <Node Bounds="316,321,105,19" Id="IOS2hC9Rii6O3Sw66yLtWn">
             <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
@@ -274,11 +274,11 @@
         <Link Id="OR0pV4uQW0wMn1Bv4IHMgG" Ids="HrEhbdjlfp1QXLCGp0u95D,Ft32yFoUWExQdBAagqqwL3" />
         <Link Id="BOafXyzxbVaP8OOCDCcVWO" Ids="Q7qInNMmkUoNtf8FtItvqK,Q7fjIcBoJFgN6dGcoHjRPQ" />
         <Link Id="GlENZHF5shsLPTwXpEylXP" Ids="OSzBD8AjcZbNMgmb5ISz3Q,DtYGAvJimhPMK2bu3Xh6kb" />
-        <Link Id="BVXjhIwKzpkMnRqaeEAaDK" Ids="RXmnDCYkD9cQOM6kEvhRJ2,KgknbmxeDjbM0BvB1GplhA" />
-        <Link Id="Gvgimi3LPftP8qm8CnN7yK" Ids="RXmnDCYkD9cQOM6kEvhRJ2,IQzJprmau0DLXmxh0BPjGb" />
-        <Link Id="TMF0PleAxjJMN1QvBZSWzg" Ids="RXmnDCYkD9cQOM6kEvhRJ2,BtkJaR5ci2iOBAIPWQ6z0h" />
-        <Link Id="Mr49eu2tV0dN88JMOiH2It" Ids="RXmnDCYkD9cQOM6kEvhRJ2,BK8VVAU3G5bQDWW4s7jP2H" />
         <Link Id="TLh3D2oCKArPOH33ceROgu" Ids="LLKc62mxXifM5MQxSSKfIX,N7nzvD6VsX0MbiQjAbua8n" />
+        <Link Id="SEGxjmnSFX9M5cO7xn1Qp6" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,IQzJprmau0DLXmxh0BPjGb" />
+        <Link Id="BHz1PbzabjbNksBiWioxc0" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,KgknbmxeDjbM0BvB1GplhA" />
+        <Link Id="UR7pMorZpFFL1wLAjJRq8C" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,BtkJaR5ci2iOBAIPWQ6z0h" />
+        <Link Id="QmXLPhO5kjLODifdDIRM9q" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,BK8VVAU3G5bQDWW4s7jP2H" />
       </Patch>
     </Node>
   </Patch>
