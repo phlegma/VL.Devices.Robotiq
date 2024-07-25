@@ -8,7 +8,7 @@
   <metadata>
     <id>VL.Devices.Robotiq</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>VL.Devices.Robotiq</title>
     <!-- Provide authors and projectUrl --> 
     <authors>phlegma</authors>
@@ -20,6 +20,9 @@
     <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
+    <dependencies>
+      <dependency id="VL.IO.Modbus" version="0.0.5-alpha" />
+    </dependencies>
   </metadata>
   <files>
     <!-- <file src="..\lib\**\*.dll" target="lib\" exclude="" /> -->
