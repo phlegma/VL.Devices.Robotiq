@@ -110,7 +110,7 @@
           </Pad>
           <Pad Id="IQps5V3tNKCLe87uf62Tmu" Comment="Initialization" Bounds="187,669,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="N5pZPO5lvnxNaKzsowDSwt" Comment="Motion" Bounds="268,686,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="QOljvVX5O0zPIJZAEUhnAh" Bounds="337,341,307,61" ShowValueBox="true" isIOBox="true" Value="Activate starts the initalisation process of the gripper. To start a movement the activate and Go To input pin has to be set to true.">
+          <Pad Id="GhC8In9bhTNLFLkitp547v" Bounds="341,338,307,61" ShowValueBox="true" isIOBox="true" Value="Activate starts the initialization process of the gripper. To start a movement, the activate and Go To input pin has to be set to true.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

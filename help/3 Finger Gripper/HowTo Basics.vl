@@ -106,7 +106,7 @@
           </Node>
           <Pad Id="MgVX4F8xR5ZOpFVjnzcNcO" Comment="Initialization" Bounds="339,609,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="AsTZFNwyYzFM0CNAPWO0XD" Comment="Operation Mode" Bounds="361,638,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KEKyOEnWSVqProgCBgEXZi" Bounds="56,78,462,190" ShowValueBox="true" isIOBox="true" Value="This is a node set to control a robotiq adaptiv 3 finger gripper. The gripper has different connection configuration. This patches are build  of the Modbus TCP  protcol to communicate via network with the gripper. &#xD;&#xA;These nodes are splitted in 3 parts: &#xD;&#xA;1. The Modbus TCP Client &#xD;&#xA;2. The output register aka gripper options&#xD;&#xA;3. The input register aka feedback informations from the gripper&#xD;&#xA;&#xD;&#xA;To test the gripper there is also a extension with a small ui to control the gripper.">
+          <Pad Id="KEKyOEnWSVqProgCBgEXZi" Bounds="60,42,465,239" ShowValueBox="true" isIOBox="true" Value="This node setup is designed to control a Robotiq Adaptive 3-Finger Gripper. The gripper supports various connection configurations. These patches are built using the Modbus TCP protocol to communicate with the gripper over a network.&#xD;&#xA;&#xD;&#xA;The nodes are divided into three parts:&#xD;&#xA;&#xD;&#xA;    1. Modbus TCP Client&#xD;&#xA;    2. Output Register (Gripper Options)&#xD;&#xA;    3. Input Register (Feedback Information from the Gripper)&#xD;&#xA;&#xD;&#xA;Additionally, there is an extension with a small UI to control the gripper for testing purposes.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -115,7 +115,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="S9tYdfE9RJdLACVAphrO1O" Bounds="65,423,149,196" ShowValueBox="true" isIOBox="true" Value="1. Creates a Modbus TCP client to communicate with the gripper. This also sends the output register to the gripper and receives the input register from the gripper">
+          <Pad Id="S9tYdfE9RJdLACVAphrO1O" Bounds="65,423,149,196" ShowValueBox="true" isIOBox="true" Value="1. Creates a Modbus TCP client to communicate with the gripper. This also sends the output register to the gripper and receives the input register from the gripper.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -124,7 +124,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="R5mZfY7hHqdNQG55rux3G5" Bounds="670,330,165,131" ShowValueBox="true" isIOBox="true" Value="2. The output register defines the options for the the gripper. For example the position of the fingers. For more options see the other help patches.  ">
+          <Pad Id="R5mZfY7hHqdNQG55rux3G5" Bounds="670,330,165,131" ShowValueBox="true" isIOBox="true" Value="2. The output register defines the options for the gripper, such as the position of the fingers. For more options, see the other help patches.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -133,7 +133,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QgoOrS6lSU3LnWJmbUTlFc" Bounds="481,561,224,142" ShowValueBox="true" isIOBox="true" Value="3. Reads the feedback from the gripper. There are more nodes for this. For all feedback information see the help patch Gripper Feedback.">
+          <Pad Id="QgoOrS6lSU3LnWJmbUTlFc" Bounds="481,561,224,142" ShowValueBox="true" isIOBox="true" Value="3. Reads the feedback from the gripper. There are more nodes for this. For all feedback information, see the help patch &quot;Gripper Feedback.&quot;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -150,7 +150,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Jv7i5G0leVbNTyxagWYnnZ" Bounds="675,239,307,61" ShowValueBox="true" isIOBox="true" Value="Activate starts the initalisation process of the gripper. To start a movement the activate and Go To input pin has to be set to true.">
+          <Pad Id="Jv7i5G0leVbNTyxagWYnnZ" Bounds="675,239,307,61" ShowValueBox="true" isIOBox="true" Value="Activate starts the initialization process of the gripper. To start a movement, the activate and Go To input pin has to be set to true.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
