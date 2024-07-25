@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="PITvKDVYHIHMU1bWLVobaA" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="Gir89eiso7eNZ6eCRApFhs" Location="VL.CoreLib" Version="2024.6.6" />
+  <Patch Id="MeVKc3L6s8OQTm3OkhpWwR">
+    <Canvas Id="HqgXcPjuwVPO0xWQew0nel" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="SC7FsDapj2sP6BJ6zj4BzW">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="EBEUuqoWWYXOxt05xAxHuH">
+        <Canvas Id="BDoROzhAXmOL2K4JLQOsAR" CanvasType="Group">
+          <Node Bounds="209,515,112,19" Id="QTKvE90EwnaMBrfQgxDmE2">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AdaptivRobotGripper" />
+            </p:NodeReference>
+            <Pin Id="RR93xBwdQiOQB9anuN2qqH" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HGJUSFyXJUFPUX1HVa9W6O" Name="Enable" Kind="InputPin" />
+            <Pin Id="HOpVWKoHXL8LECMv7uhy7g" Name="IP Adresse" Kind="InputPin" />
+            <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
+            <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
+            <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
+            <Pin Id="OaFn1Iu1LNFMXeEHlH1Pdx" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="VUvzAPJbV4RQCmITSJoPD2" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="316,321,105,19" Id="IOS2hC9Rii6O3Sw66yLtWn">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SimpleOptions" />
+            </p:NodeReference>
+            <Pin Id="OdAHaSYMpwjMhKb6yNm1SY" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="N1egaWiwE9LMVxobur4gWU" Name="Activate" Kind="InputPin" />
+            <Pin Id="N7nzvD6VsX0MbiQjAbua8n" Name="Go To" Kind="InputPin" />
+            <Pin Id="FhzhLmVKNOxNf3GSGocz9G" Name="Mode" Kind="InputPin" />
+            <Pin Id="J6jC0c0XQIIOYOk8jlDPYs" Name="Position" Kind="InputPin" />
+            <Pin Id="EHeWvbi7LSfNSRpdCrdRdO" Name="Speed" Kind="InputPin" />
+            <Pin Id="CwaliWTQyGaMvFrPmFeFqC" Name="Force" Kind="InputPin" />
+            <Pin Id="BlynWWjxdQMMrDTrW71Ef0" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VATspnlk8PjPHJiOpq59oo" Comment="Enable" Bounds="210,466,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UynbCxdsbKgQGPALgzGLGu" Comment="IP Adresse" Bounds="246,427,74,19" ShowValueBox="true" isIOBox="true" Value="192.168.1.11">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GkkIWvNZKvcO0xB6oPl0cJ" Comment="Read Input Register Period" Bounds="283,389,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="EbFJFWr137YMZXByAHmKFI" Comment="Activate" Bounds="317,280,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="SzVbKWQwnH7Mq2MVY8h69S" Comment="Mode" Bounds="358,214,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="KtNPEWilhQuLcKgCpQ32kM" Comment="Position" Bounds="378,165,35,15" ShowValueBox="true" isIOBox="true" Value="26">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="UgQI3Vcmdp0NJKZM8tnAb7" Comment="Speed" Bounds="395,123,35,15" ShowValueBox="true" isIOBox="true" Value="255">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="C0DOW2TuK0GPUICjQPKfhH" Comment="Force" Bounds="418,84,35,15" ShowValueBox="true" isIOBox="true" Value="108">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IF056QjauqLPtq2OGykpZh" Comment="Is Connected" Bounds="210,563,35,35" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="51,767,245,19" Id="DHH3eTHntXqLrZIbwr76Km">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FingerPositions" />
+            </p:NodeReference>
+            <Pin Id="MPhRA8ppqaOLKXkAYQz1q8" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IQzJprmau0DLXmxh0BPjGb" Name="InuptRegister" Kind="InputPin" />
+            <Pin Id="IoPoVzswZwkLYDFPwibKeB" Name="All" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="CxUQGd9NvqWOk1bnaQV5nj" Name="Posistion Request Echo All / Finger A" Kind="OutputPin" />
+            <Pin Id="Q7qInNMmkUoNtf8FtItvqK" Name="Finger A Position" Kind="OutputPin" />
+            <Pin Id="OycvKClSDsQPk7lDWOlRCA" Name="Finger A Current" Kind="OutputPin" />
+            <Pin Id="FKSgAcwQtfNNVdR24UpkES" Name="Posistion B Request Echo" Kind="OutputPin" />
+            <Pin Id="HrEhbdjlfp1QXLCGp0u95D" Name="Finger B Position" Kind="OutputPin" />
+            <Pin Id="DrRp1wzzMXwLCIuGzQ1nRm" Name="Finger B Current" Kind="OutputPin" />
+            <Pin Id="I2OqLMgjriwPdzTh26hPEX" Name="Posistion C Request Echo" Kind="OutputPin" />
+            <Pin Id="OSzBD8AjcZbNMgmb5ISz3Q" Name="Finger C Position" Kind="OutputPin" />
+            <Pin Id="SzXcweYbIiGLwmdJ3jQugC" Name="Finger C Current" Kind="OutputPin" />
+            <Pin Id="CmRKJfi7CKsMbfH9heaU4y" Name="Scissor Position Request Echo" Kind="OutputPin" />
+            <Pin Id="E2QQjFKVWcNOwaXbe0WEy0" Name="Scissor Position" Kind="OutputPin" />
+            <Pin Id="JlaPYso4edIO4d8lILDRCc" Name="Scissor Current" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="394,769,105,19" Id="BJmpMC2QNIIP12iGZJl2ii">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="GripperStatus" />
+            </p:NodeReference>
+            <Pin Id="ANkn1eFtgs4MYV7SKGMpmG" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KgknbmxeDjbM0BvB1GplhA" Name="Input" Kind="InputPin" />
+            <Pin Id="M56n9YThm42LyDMDWwS5LX" Name="Initialization" Kind="OutputPin" />
+            <Pin Id="L6DIo765CXzLCgRvfzqzp7" Name="Operation Mode" Kind="OutputPin" />
+            <Pin Id="FmaMDZUy7dBOzeqRfjQHyk" Name="Action" Kind="OutputPin" />
+            <Pin Id="GZyNlIxPF9WLjFvaViAIAm" Name="Status" Kind="OutputPin" />
+            <Pin Id="Q0xeo3hMEizLbCWpYZ2pRz" Name="Motion" Kind="OutputPin" />
+            <Pin Id="TwSD2iRpvEIOB8SsdHNVTF" Name="Has Changed" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="RFRGwd9ziRFPncBiheLJF3" Comment="Status" Bounds="475,1122,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="POdy4cKMPRpNqtGpFQiAoe" Comment="Initialization" Bounds="396,816,34,17" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QPRIeNEDVMGMxshyOosvEB" Comment="Operation Mode" Bounds="423,941,28,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MInTGcyWo0nNKN78AKPTEa" Comment="Action" Bounds="450,1049,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="JaXeqA8GfsUMu3m7z2xfAl" Comment="Motion" Bounds="502,1229,67,18" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="KVmvtyFAfMONJ6LT6HKhvQ" Bounds="505,814,204,46" ShowValueBox="true" isIOBox="true" Value="0x0 - Gripper reset.&#xD;&#xA;0x1 - Gripper activation.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DusCGL9hmPhMr3aA5pblqq" Bounds="415,960,199,79" ShowValueBox="true" isIOBox="true" Value="0x00 - Basic mode.&#xD;&#xA;0x01 - Pinch mode.&#xD;&#xA;0x02 - Wide mode.&#xD;&#xA;0x03 - Scissor mode.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AADVtwFd5mCNSFbnt40ooi" Bounds="413,1070,582,40" ShowValueBox="true" isIOBox="true" Value="0x0 - Stopped (or performing activation / grasping mode change / automatic release).&#xD;&#xA;0x1 - Go to Position Request.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="S1a2FZXU371QIr1sIzfwCl" Bounds="460,1147,576,80" ShowValueBox="true" isIOBox="true" Value="0x00 - Gripper is in reset (or automatic release) state. See Fault status if Gripper is activated.&#xD;&#xA;0x01 - Activation is in progress.&#xD;&#xA;0x02 - Mode change is in progress.&#xD;&#xA;0x03 - Activation and Mode change are complete.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="P1pcDpnKOJpPahqISbBKTc" Bounds="487,1256,570,80" ShowValueBox="true" isIOBox="true" Value="0x00 - Gripper is in motion towards requested position (only meaningful if gGTO = 1).&#xD;&#xA;0x01 - Gripper is stopped. One or two fingers stopped before requested position.&#xD;&#xA;0x02 - Gripper is stopped. All fingers stopped before requested position.&#xD;&#xA;0x03 - Gripper is stopped. All fingers reached requested position.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <ControlPoint Id="C6Qgp8i7AqaPzetJfPayUh" Bounds="396,847" />
+          <Node Bounds="920,768,150,19" Id="UrEP61E1fsxNRmugIpI2cS">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ObjectStatus" />
+            </p:NodeReference>
+            <Pin Id="EtLg34n812PQEhmMHZsCYy" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BtkJaR5ci2iOBAIPWQ6z0h" Name="Input" Kind="InputPin" />
+            <Pin Id="FQS3Zrd2XOMP0uTik1ZwgQ" Name="Finger A" Kind="OutputPin" />
+            <Pin Id="V8i7APos6GpQAwKtqOzr16" Name="Finger B" Kind="OutputPin" />
+            <Pin Id="SXhwPA6QdYpMhLWIxaAWGl" Name="Finger C" Kind="OutputPin" />
+            <Pin Id="BNl1dDQGgjZQGn8oUtlgP4" Name="Scissor" Kind="OutputPin" />
+          </Node>
+          <Pad Id="J97rQS6mwLzO4fjUY6j4up" Bounds="909,681,552,80" ShowValueBox="true" isIOBox="true" Value="0x00 - Finger ABC is in motion (only meaningful if gGTO = 1).&#xD;&#xA;0x01 - Finger ABC has stopped due to a contact while opening.&#xD;&#xA;0x02 - Finger ABC has stopped due to a contact while closing.&#xD;&#xA;0x03 - Finger ABC is at the requested position.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="C2DVgasEpkGMAoQOKUzO5u" Comment="Finger A" Bounds="922,805,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="I56wBPqFlgcNrdHc74hEIH" Comment="Finger B" Bounds="971,825,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DGUKqhpDl9ZPdRwvAPiKqv" Comment="Finger C" Bounds="1020,845,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="UmrlctiHMFXL6CG8Va2j9i" Comment="Scissor" Bounds="1067,953,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="EP3maXecgdlP8eRCK7KSjm" Bounds="1059,980,368,82" ShowValueBox="true" isIOBox="true" Value="0x00 - Scissor is in motion (only meaningful if gGTO = 1).&#xD;&#xA;0x01 - Scissor has stopped due to a contact while opening.&#xD;&#xA;0x02 - Scissor has stopped due to a contact while closing.&#xD;&#xA;0x03 - Scissor is at the requested position.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="1581,769,66,19" Id="CSivlo0kTQ5PFr8bZY2DtP">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FaultStatus" />
+            </p:NodeReference>
+            <Pin Id="Iasx6KAQH1YN12W5XM3EJK" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BK8VVAU3G5bQDWW4s7jP2H" Name="Input" Kind="InputPin" />
+            <Pin Id="G57jS1wZLa0QU8lLFptzQi" Name="Fault" Kind="OutputPin" />
+          </Node>
+          <Pad Id="UJQ6ZbWCLMBPGzDnvtIgz1" Comment="Fault" Bounds="1582,814,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="UGLFDhJqKb5L1gjXIksDZf" Bounds="1573,839,559,252" ShowValueBox="true" isIOBox="true" Value="0x00 - No fault (fault LED off)&#xD;&#xA;Priority faults (fault LED off)&#xD;&#xA;0x05 - Action delayed, activation (reactivation) must be completed prior to renewed action.&#xD;&#xA;0x06 - Action delayed, mode change must be completed prior to continuing action.&#xD;&#xA;0x07 - The activation bit must be set prior to action.&#xD;&#xA;Minor faults (fault LED continuous red)&#xD;&#xA;0x09 - The communication chip is not ready (may be booting).&#xD;&#xA;0x0A - Changing mode fault, interference detected on Scissor (for less than 20 sec).&#xD;&#xA;0x0B - Automatic release in progress.&#xD;&#xA;Major faults (fault LED blinking red) - Reset is required.&#xD;&#xA;0x0D - Activation fault, verify that no interference or other error occurred.&#xD;&#xA;0x0E - Changing mode fault, interference detected on Scissor (for more than 20 sec).&#xD;&#xA;0x0F - Automatic release completed. Reset and activation is required.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Ft32yFoUWExQdBAagqqwL3" Comment="Finger B Position" Bounds="140,862,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Q7fjIcBoJFgN6dGcoHjRPQ" Comment="Finger A Position" Bounds="75,833,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DtYGAvJimhPMK2bu3Xh6kb" Comment="Finger C Position" Bounds="208,897,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="LLKc62mxXifM5MQxSSKfIX" Comment="Go To" Bounds="336,237,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="VrPq7Bn3g3XMkeINeixNW7" Name="Create" />
+        <Patch Id="Gtwv0geUlk9LUBVhBC728l" Name="Update">
+          <Pin Id="GeuNOvAsgpbMPSiwFJLFa9" Name="Initialization" Kind="OutputPin" />
+        </Patch>
+        <ProcessDefinition Id="EYfwaHlKlx2QKlVDIv6YRY">
+          <Fragment Id="DPzxgbWuWHxLCERHH7uBss" Patch="VrPq7Bn3g3XMkeINeixNW7" Enabled="true" />
+          <Fragment Id="HUnNDrPcckqNVdfbVM3qWo" Patch="Gtwv0geUlk9LUBVhBC728l" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="GlvtGO8b8JGLgOUknp5gTQ" Ids="BlynWWjxdQMMrDTrW71Ef0,FhhBiGwMCeeMOM1TvrOwzS" />
+        <Link Id="LV4P8VF9B98OrT2j0xrNe6" Ids="VATspnlk8PjPHJiOpq59oo,HGJUSFyXJUFPUX1HVa9W6O" />
+        <Link Id="DH9ZWs5HrTqOrDHZBrW00M" Ids="UynbCxdsbKgQGPALgzGLGu,HOpVWKoHXL8LECMv7uhy7g" />
+        <Link Id="AHqRLOcVZ7DNSCgJIllPEI" Ids="GkkIWvNZKvcO0xB6oPl0cJ,RJ9nuMXUqNuLtYXWS1adXz" />
+        <Link Id="B8IRwHRALadPde9uO99aBT" Ids="EbFJFWr137YMZXByAHmKFI,N1egaWiwE9LMVxobur4gWU" />
+        <Link Id="P0y5aO9aH1ZPg9QMW1D4Ee" Ids="SzVbKWQwnH7Mq2MVY8h69S,FhzhLmVKNOxNf3GSGocz9G" />
+        <Link Id="IvnEF2Qz5GGMyUa48sSldZ" Ids="KtNPEWilhQuLcKgCpQ32kM,J6jC0c0XQIIOYOk8jlDPYs" />
+        <Link Id="JxVQFZ2gYrANqcJT0c63RM" Ids="UgQI3Vcmdp0NJKZM8tnAb7,EHeWvbi7LSfNSRpdCrdRdO" />
+        <Link Id="HAXak258zbHLnrg0Tbxjfv" Ids="C0DOW2TuK0GPUICjQPKfhH,CwaliWTQyGaMvFrPmFeFqC" />
+        <Link Id="VuIg8XyYQbAQXieo8MepHO" Ids="E9ImDAtE3MMQFokQQBKIBb,IF056QjauqLPtq2OGykpZh" />
+        <Link Id="VEPr9tKWCyVPBFgqCmk0nd" Ids="GZyNlIxPF9WLjFvaViAIAm,RFRGwd9ziRFPncBiheLJF3" />
+        <Link Id="V5BwKTzKMIrM67y4oDijyA" Ids="M56n9YThm42LyDMDWwS5LX,POdy4cKMPRpNqtGpFQiAoe" />
+        <Link Id="O2dEDv8tNcOPC4RKS5IvpG" Ids="L6DIo765CXzLCgRvfzqzp7,QPRIeNEDVMGMxshyOosvEB" />
+        <Link Id="RQRbLmmUru3M9IcqmkZuxF" Ids="FmaMDZUy7dBOzeqRfjQHyk,MInTGcyWo0nNKN78AKPTEa" />
+        <Link Id="ABsRT5rI7gLQX0OgAsAIBg" Ids="Q0xeo3hMEizLbCWpYZ2pRz,JaXeqA8GfsUMu3m7z2xfAl" />
+        <Link Id="R85P58kXFWdP2DAgIzfVfK" Ids="POdy4cKMPRpNqtGpFQiAoe,C6Qgp8i7AqaPzetJfPayUh" />
+        <Link Id="CJHh6eYY8R6L3WIcUTTlfV" Ids="C6Qgp8i7AqaPzetJfPayUh,GeuNOvAsgpbMPSiwFJLFa9" IsHidden="true" />
+        <Link Id="QPwrCrNYm5tNW2oGlyXPdD" Ids="FQS3Zrd2XOMP0uTik1ZwgQ,C2DVgasEpkGMAoQOKUzO5u" />
+        <Link Id="KhlD6xbYZplM6CBHtXeGrt" Ids="V8i7APos6GpQAwKtqOzr16,I56wBPqFlgcNrdHc74hEIH" />
+        <Link Id="HrXXJ1AxH4LMN6SVIpebS6" Ids="SXhwPA6QdYpMhLWIxaAWGl,DGUKqhpDl9ZPdRwvAPiKqv" />
+        <Link Id="BvtAv3vaAFSPLYFBcDb3X1" Ids="BNl1dDQGgjZQGn8oUtlgP4,UmrlctiHMFXL6CG8Va2j9i" />
+        <Link Id="GUZKfOTN7vtL5korwxuVE1" Ids="G57jS1wZLa0QU8lLFptzQi,UJQ6ZbWCLMBPGzDnvtIgz1" />
+        <Link Id="OR0pV4uQW0wMn1Bv4IHMgG" Ids="HrEhbdjlfp1QXLCGp0u95D,Ft32yFoUWExQdBAagqqwL3" />
+        <Link Id="BOafXyzxbVaP8OOCDCcVWO" Ids="Q7qInNMmkUoNtf8FtItvqK,Q7fjIcBoJFgN6dGcoHjRPQ" />
+        <Link Id="GlENZHF5shsLPTwXpEylXP" Ids="OSzBD8AjcZbNMgmb5ISz3Q,DtYGAvJimhPMK2bu3Xh6kb" />
+        <Link Id="TLh3D2oCKArPOH33ceROgu" Ids="LLKc62mxXifM5MQxSSKfIX,N7nzvD6VsX0MbiQjAbua8n" />
+        <Link Id="SEGxjmnSFX9M5cO7xn1Qp6" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,IQzJprmau0DLXmxh0BPjGb" />
+        <Link Id="BHz1PbzabjbNksBiWioxc0" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,KgknbmxeDjbM0BvB1GplhA" />
+        <Link Id="UR7pMorZpFFL1wLAjJRq8C" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,BtkJaR5ci2iOBAIPWQ6z0h" />
+        <Link Id="QmXLPhO5kjLODifdDIRM9q" Ids="OaFn1Iu1LNFMXeEHlH1Pdx,BK8VVAU3G5bQDWW4s7jP2H" />
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="MpphFpykrABNEL4EQggaL4" Location="../../VL.Devices.Robotiq.vl" />
+</Document>

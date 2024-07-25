@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="UQNaZmSsvRtOBfzg8iREw8" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="Gir89eiso7eNZ6eCRApFhs" Location="VL.CoreLib" Version="2024.6.6" />
+  <Patch Id="MeVKc3L6s8OQTm3OkhpWwR">
+    <Canvas Id="HqgXcPjuwVPO0xWQew0nel" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="SC7FsDapj2sP6BJ6zj4BzW">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="EBEUuqoWWYXOxt05xAxHuH">
+        <Canvas Id="BDoROzhAXmOL2K4JLQOsAR" CanvasType="Group">
+          <Node Bounds="77,362,112,19" Id="QTKvE90EwnaMBrfQgxDmE2">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AdaptivRobotGripper" />
+            </p:NodeReference>
+            <Pin Id="RR93xBwdQiOQB9anuN2qqH" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HGJUSFyXJUFPUX1HVa9W6O" Name="Enable" Kind="InputPin" />
+            <Pin Id="HOpVWKoHXL8LECMv7uhy7g" Name="IP Adresse" Kind="InputPin" />
+            <Pin Id="RJ9nuMXUqNuLtYXWS1adXz" Name="Read Input Register Period" Kind="InputPin" />
+            <Pin Id="FhhBiGwMCeeMOM1TvrOwzS" Name="OutputRegister" Kind="InputPin" />
+            <Pin Id="E9ImDAtE3MMQFokQQBKIBb" Name="Is Connected" Kind="OutputPin" />
+            <Pin Id="P04ZLuReOeqNRWFVbBSqTl" Name="Input Register" Kind="OutputPin" />
+            <Pin Id="QcjAqddJwIuLkyYPLpYCrA" Name="Input Register Binary" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="345,289,185,19" Id="IOS2hC9Rii6O3Sw66yLtWn">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Robotiq" />
+              <Choice Kind="ProcessAppFlag" Name="IndividualScissorControls" />
+            </p:NodeReference>
+            <Pin Id="OdAHaSYMpwjMhKb6yNm1SY" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="N1egaWiwE9LMVxobur4gWU" Name="Activate" Kind="InputPin" />
+            <Pin Id="N7nzvD6VsX0MbiQjAbua8n" Name="Go To" Kind="InputPin" />
+            <Pin Id="CFWe9csObHfLEVV4fjJp4q" Name="Individual Control of Scissor" Kind="InputPin" />
+            <Pin Id="DZY9ZlvpJ7WPiibxIlirzY" Name="Scissor Position" Kind="InputPin" />
+            <Pin Id="QBxEc6NgPvhL72BJKyg0MG" Name="Scissor Speed" Kind="InputPin" />
+            <Pin Id="Ql5dlTFOWLAPAmzVDYPwjq" Name="Scissor Force" Kind="InputPin" />
+            <Pin Id="BlynWWjxdQMMrDTrW71Ef0" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VATspnlk8PjPHJiOpq59oo" Comment="Enable" Bounds="78,313,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UynbCxdsbKgQGPALgzGLGu" Comment="IP Adresse" Bounds="114,274,74,19" ShowValueBox="true" isIOBox="true" Value="192.168.1.11">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="GkkIWvNZKvcO0xB6oPl0cJ" Comment="Read Input Register Period" Bounds="151,236,35,15" ShowValueBox="true" isIOBox="true" Value="0.1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="EbFJFWr137YMZXByAHmKFI" Comment="Activate" Bounds="346,235,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IF056QjauqLPtq2OGykpZh" Comment="Is Connected" Bounds="78,422,35,35" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="185,633,85,19" Id="I5NxCbzr3g5N0nm54jGW1m">
+            <p:NodeReference LastCategoryFullName="Devices.Robotiq" LastDependency="VL.Devices.Robotiq.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="GripperStatus" />
+            </p:NodeReference>
+            <Pin Id="NURYlVgLKT5QZtki2xQOrM" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OHVh5sqqk2YNJWht5C4YzJ" Name="Input" Kind="InputPin" />
+            <Pin Id="Eemy7QzSUXFMhiIh9ZDDOq" Name="Initialization" Kind="OutputPin" />
+            <Pin Id="FlrTceF7me0PVWA4L5ormv" Name="Operation Mode" Kind="OutputPin" />
+            <Pin Id="D51siMdOjBdMLbub8XzxRe" Name="Action" Kind="OutputPin" />
+            <Pin Id="PSLLSsyDAf3NPiqHh0WHtx" Name="Status" Kind="OutputPin" />
+            <Pin Id="Mrrq3XkvVqhLj4cmjNeYUi" Name="Motion" Kind="OutputPin" />
+            <Pin Id="EmO2ASChAOHOQxaOwfQSl8" Name="Has Changed" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="BCyAqQ9glzPOEHZ5JAYzGm" Comment="Go To" Bounds="380,185,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GFn0Gr2ad6RPzYPOcOWlQV" Comment="Scissor Position" Bounds="458,139,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Ka01dlXx7eOPLJ3QuJUVFR" Comment="Scissor Speed" Bounds="491,103,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="MlbfP0dI0RPP2aEceQq5AF" Comment="Scissor Force" Bounds="532,66,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IQps5V3tNKCLe87uf62Tmu" Comment="Initialization" Bounds="187,669,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="N5pZPO5lvnxNaKzsowDSwt" Comment="Motion" Bounds="268,686,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="GhC8In9bhTNLFLkitp547v" Bounds="341,338,307,61" ShowValueBox="true" isIOBox="true" Value="Activate starts the initialization process of the gripper. To start a movement, the activate and Go To input pin has to be set to true.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="VrPq7Bn3g3XMkeINeixNW7" Name="Create" />
+        <Patch Id="Gtwv0geUlk9LUBVhBC728l" Name="Update" />
+        <ProcessDefinition Id="EYfwaHlKlx2QKlVDIv6YRY">
+          <Fragment Id="DPzxgbWuWHxLCERHH7uBss" Patch="VrPq7Bn3g3XMkeINeixNW7" Enabled="true" />
+          <Fragment Id="HUnNDrPcckqNVdfbVM3qWo" Patch="Gtwv0geUlk9LUBVhBC728l" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="GlvtGO8b8JGLgOUknp5gTQ" Ids="BlynWWjxdQMMrDTrW71Ef0,FhhBiGwMCeeMOM1TvrOwzS" />
+        <Link Id="LV4P8VF9B98OrT2j0xrNe6" Ids="VATspnlk8PjPHJiOpq59oo,HGJUSFyXJUFPUX1HVa9W6O" />
+        <Link Id="DH9ZWs5HrTqOrDHZBrW00M" Ids="UynbCxdsbKgQGPALgzGLGu,HOpVWKoHXL8LECMv7uhy7g" />
+        <Link Id="AHqRLOcVZ7DNSCgJIllPEI" Ids="GkkIWvNZKvcO0xB6oPl0cJ,RJ9nuMXUqNuLtYXWS1adXz" />
+        <Link Id="B8IRwHRALadPde9uO99aBT" Ids="EbFJFWr137YMZXByAHmKFI,N1egaWiwE9LMVxobur4gWU" />
+        <Link Id="VuIg8XyYQbAQXieo8MepHO" Ids="E9ImDAtE3MMQFokQQBKIBb,IF056QjauqLPtq2OGykpZh" />
+        <Link Id="UmPMF5Gt3WANV3PKvchZv9" Ids="BCyAqQ9glzPOEHZ5JAYzGm,N7nzvD6VsX0MbiQjAbua8n" />
+        <Link Id="DnKvpAs57ryQUoq82voK6z" Ids="GFn0Gr2ad6RPzYPOcOWlQV,DZY9ZlvpJ7WPiibxIlirzY" />
+        <Link Id="QpYVNbOubY6PAbSgVjH12w" Ids="Ka01dlXx7eOPLJ3QuJUVFR,QBxEc6NgPvhL72BJKyg0MG" />
+        <Link Id="HF1uBi8ehD1L2EsOQxpHKq" Ids="MlbfP0dI0RPP2aEceQq5AF,Ql5dlTFOWLAPAmzVDYPwjq" />
+        <Link Id="ObwOp3omgpjLwvrCOSCHSl" Ids="Eemy7QzSUXFMhiIh9ZDDOq,IQps5V3tNKCLe87uf62Tmu" />
+        <Link Id="UgAAHw5tEqgMdAGuajj8pX" Ids="Mrrq3XkvVqhLj4cmjNeYUi,N5pZPO5lvnxNaKzsowDSwt" />
+        <Link Id="Vdp6HsmDJXILDkqGnSid9u" Ids="P04ZLuReOeqNRWFVbBSqTl,OHVh5sqqk2YNJWht5C4YzJ" />
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="MpphFpykrABNEL4EQggaL4" Location="../../VL.Devices.Robotiq.vl" />
+</Document>
