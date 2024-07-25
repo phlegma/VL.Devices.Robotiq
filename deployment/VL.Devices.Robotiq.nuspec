@@ -21,7 +21,7 @@
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
     <dependencies>
-      <dependency id="VL.IO.Modbus" version="0.0.5-alpha" />
+      <dependency id="VL.IO.Modbus" version="0.0.6" />
     </dependencies>
   </metadata>
   <files>
