@@ -6,17 +6,17 @@
 
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.NewLibrary.Template</id>
+    <id>VL.Devices.Robotiq</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>0.0.1-alpha</version>
-    <title>VL.NewLibrary.Template</title>
+    <version>1.0.0-alpha</version>
+    <title>VL.Devices.Robotiq</title>
     <!-- Provide authors and projectUrl --> 
-    <authors></authors>
-    <projectUrl></projectUrl>
+    <authors>phlegma</authors>
+    <projectUrl>https://github.com/phlegma/VL.Devices.Robotiq</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description></description>
-    <tags>VL</tags>
+    <tags>VL, robotik, robotiq, gripper, 3-Finger</tags>
     <license type="expression">LGPL-3.0-only</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
