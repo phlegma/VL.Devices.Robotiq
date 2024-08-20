@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description>VL integration of the robotiq 3-finger adaptiv gripper</description>
-    <tags>VL, robotik, robotiq, gripper, 3-Finger</tags>
+    <tags>VL, VVVV, robotic, robotiq, gripper, 3-Finger</tags>
     <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
