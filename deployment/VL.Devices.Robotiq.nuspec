@@ -8,7 +8,7 @@
   <metadata>
     <id>VL.Devices.Robotiq</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>VL.Devices.Robotiq</title>
     <!-- Provide authors and projectUrl --> 
     <authors>phlegma</authors>

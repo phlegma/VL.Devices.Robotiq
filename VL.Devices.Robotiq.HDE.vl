@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2024.6.7-0113-ga9b832a275" Version="0.128">
-  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2024.6.7-0113-ga9b832a275" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2024.6.7-0148-g892efc0a20" Version="0.128">
+  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2024.6.7-0148-g892efc0a20" />
   <Patch Id="F7bnzPLW06JPZzJNwudf2b">
     <Canvas Id="Bir0z0GB6wqMBKzMwb1Y5m" DefaultCategory="HDE" CanvasType="FullCategory">
       <Canvas Id="S8MridbZ8ALNHSPo3Tpn7I" Name="UI" Position="63,198">
@@ -4155,14 +4155,12 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2024.6.7-0113-ga9b832a275" />
-  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2024.6.7-0113-ga9b832a275" />
-  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2024.6.7-0113-ga9b832a275" />
-  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" Version="2024.6.7-0113-ga9b832a275" />
-  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" Version="2024.6.7-0113-ga9b832a275" />
-  <NugetDependency Id="U8qVyTsjBtTNeR39ruRST1" Location="VL.IO.OSC" Version="1.1.4" />
-  <NugetDependency Id="Vbbm1nkmnNVQQ1ghy4PkTK" Location="VL.IO.OSCQuery" Version="2024.6.7-0113-ga9b832a275" />
+  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2024.6.7-0148-g892efc0a20" />
+  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2024.6.7-0148-g892efc0a20" />
+  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2024.6.7-0148-g892efc0a20" />
+  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" Version="2024.6.7-0148-g892efc0a20" />
+  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" Version="2024.6.7-0148-g892efc0a20" />
   <NugetDependency Id="DpKJnuvE2p0LNJJcJLf6N8" Location="VL.IO.Midi" Version="1.1.1" />
   <DocumentDependency Id="AkLwgV60xVKM3BmldTAOGY" Location="./VL.Devices.Robotiq.vl" />
-  <NugetDependency Id="SKaCCVHsCy4PT7uq7rStaf" Location="VL.Audio.UI" Version="1.8.3" />
+  <NugetDependency Id="SKaCCVHsCy4PT7uq7rStaf" Location="VL.Audio.UI" Version="1.8.4" />
 </Document>
