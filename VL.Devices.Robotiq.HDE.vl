@@ -457,7 +457,7 @@
                 <Pin Id="FSHV5UStoHEMo3rI5KITjK" Name="Entity" Kind="OutputPin" />
                 <Pin Id="N73PhemLurYQWW9M4JfpM7" Name="GripperContext" Kind="InputPin" />
               </Node>
-              <Node Bounds="813,711,205,19" Id="QjKiMlfaaJqMJmcQwMdEzo">
+              <Node Bounds="706,730,205,19" Id="QjKiMlfaaJqMJmcQwMdEzo">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -4162,7 +4162,7 @@
             <Pin Id="No7SjApg7xzNBXnPI6iFLG" Name="Output" Kind="StateOutputPin" />
             <Pin Id="K7pFKa5wqDTOEMYvIMxQyl" Name="Value" Kind="OutputPin" />
           </Node>
-          <Node Bounds="852,604,45,26" Id="U6CNFrDkjiQOvDLl8sEhJi">
+          <Node Bounds="838,610,45,26" Id="U6CNFrDkjiQOvDLl8sEhJi">
             <p:NodeReference LastCategoryFullName="Reactive.Channel" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="MutableInterfaceType" Name="Channel" NeedsToBeDirectParent="true" />
@@ -4172,7 +4172,7 @@
             <Pin Id="AZEsVsTGPeGMjEuXKAG5Zl" Name="Output" Kind="StateOutputPin" />
             <Pin Id="JGkoPF1f0c9NRzmcAVsvLH" Name="Value" Kind="OutputPin" />
           </Node>
-          <Node Bounds="728,602,45,26" Id="IgZ0etZeEkCNupcLBQqJGr">
+          <Node Bounds="720,610,45,26" Id="IgZ0etZeEkCNupcLBQqJGr">
             <p:NodeReference LastCategoryFullName="Reactive.Channel" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="MutableInterfaceType" Name="Channel" NeedsToBeDirectParent="true" />
