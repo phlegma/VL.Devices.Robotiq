@@ -440,7 +440,7 @@
                 <Pin Id="VpHJYvJ7MoNLB23aglCzNp" Name="Inverse View" Kind="OutputPin" />
                 <Pin Id="Tsv94k0WuMTOrghiM9R1GG" Name="Camera Component" Kind="OutputPin" />
               </Node>
-              <Node Bounds="704,220,78,19" Id="EQ4aKV1bleVMzRjM5iQ3Tu">
+              <Node Bounds="704,160,78,19" Id="EQ4aKV1bleVMzRjM5iQ3Tu">
                 <p:NodeReference LastCategoryFullName="Main" LastDependency="GripperVisualization.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="GripperModel" />
@@ -518,7 +518,7 @@
                 <Pin Id="PFhHsRP2opZMJ2kN4staeG" Name="Output" Kind="OutputPin" IsHidden="true" />
                 <Pin Id="JYneEoSZtRXMVL2qPuxBB9" Name="Entity" Kind="OutputPin" />
               </Node>
-              <Pad Id="BZmm1tTFXFTOEUJv51rvve" Comment="Initial Yaw" Bounds="893,231,35,15" ShowValueBox="true" isIOBox="true">
+              <Pad Id="BZmm1tTFXFTOEUJv51rvve" Comment="Initial Yaw" Bounds="893,241,35,15" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
@@ -544,7 +544,7 @@
                 <Pin Id="FuBf9HFsa6ILAElCpaL0ak" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="HKMRIZCnLwyO8jzwZzet4a" Name="Value" Kind="OutputPin" />
               </Node>
-              <Node Bounds="891,140,89,26" Id="OXzqYDTLOCfNR8qLoTZwT4">
+              <Node Bounds="891,160,89,26" Id="OXzqYDTLOCfNR8qLoTZwT4">
                 <p:NodeReference LastCategoryFullName="Primitive.Float32" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Float32Type" Name="Float32" NeedsToBeDirectParent="true" />
@@ -553,7 +553,7 @@
                 <Pin Id="GO0LvIJOr6rNfLSoiD0xLf" Name="Input" Kind="StateInputPin" />
                 <Pin Id="NhGZrjlTllkOvBL9lw4DfG" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="891,180,25,19" Id="SW37Kp4Z7PgNbR3vlJdTA1">
+              <Node Bounds="891,200,25,19" Id="SW37Kp4Z7PgNbR3vlJdTA1">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="+" />
