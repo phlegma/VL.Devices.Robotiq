@@ -747,11 +747,6 @@
               <Pin Id="ToEsu68JGeuNW3Q7LmBfL3" Name="View Rotation" Kind="InputPin" />
               <Pin Id="NU5sWBhNSlBLuucAQAQs2L" Name="Output" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="NK5rybqitzOOkyBC00UOGZ">
               <Fragment Id="JOx2gcgIqFkPh4iiCzmojX" Patch="MwC2A9lvz2qNDBFdiZFZXu" Enabled="true" />
               <Fragment Id="NHVN7SPS6MaPggc0IGgDN4" Patch="GtvQmzudMQaLh1N8juQNEM" Enabled="true" />
