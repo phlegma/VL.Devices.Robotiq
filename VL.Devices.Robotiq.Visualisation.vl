@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SThfTAiuJFAPIA03QWbITw" LanguageVersion="2025.7.0-0243-gb199e08460" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="JgRmNytJGwPMIPsyMKmcYz" LanguageVersion="2025.7.0-0243-gb199e08460" Version="0.128">
   <NugetDependency Id="Qu0TGz2zDkWP1mNSbYwbPj" Location="VL.CoreLib" Version="2025.7.0-0243-gb199e08460" />
   <Patch Id="VqSaI2qDqszPN39SwfW0Ka">
     <Canvas Id="CRdxt4Pq7pVP0yxA9G0EG9" DefaultCategory="Main" CanvasType="FullCategory">
@@ -25,7 +25,7 @@
               <Pin Id="BePNDPYzhOaPW6dNG4DC60" Name="Entity" Kind="OutputPin" />
               <Pin Id="O96PwK1r0ZqPx40oNjKKZy" Name="Children" Kind="InputPin" />
             </Node>
-            <Node Bounds="522,210,87,19" Id="RuFHUd7WNZmPNh8MieHJwv">
+            <Node Bounds="591,150,87,19" Id="RuFHUd7WNZmPNh8MieHJwv">
               <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
@@ -33,7 +33,7 @@
               <Pin Id="HjGAW2q45b6NFzlKHUQvt8" Name="Output" Kind="OutputPin" />
               <Pin Id="St6Vo9xcLhMLfgMfuxjZad" Name="Node Context" Kind="InputPin" IsHidden="true" />
             </Node>
-            <Node Bounds="522,370,25,19" Id="BS7HoqalO7JOiyNwbgldCF">
+            <Node Bounds="591,310,25,19" Id="BS7HoqalO7JOiyNwbgldCF">
               <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="+" />
@@ -42,8 +42,8 @@
               <Pin Id="AgRiUUUjTutMGQUlvIDcTB" Name="Input 2" Kind="InputPin" DefaultValue="assets\meshes\" />
               <Pin Id="RZgMerhfCYzNgbCsMNeVjW" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="NKDKKirGkxXPb9ig6TLHIm" SlotId="TVktVfXMu4WLHJaxgl4Kzz" Bounds="524,410" />
-            <Pad Id="EUJ6CbvfDpxObA3ZqTA1pu" SlotId="TVktVfXMu4WLHJaxgl4Kzz" Bounds="561,501" />
+            <Pad Id="NKDKKirGkxXPb9ig6TLHIm" SlotId="TVktVfXMu4WLHJaxgl4Kzz" Bounds="593,350" />
+            <Pad Id="EUJ6CbvfDpxObA3ZqTA1pu" SlotId="TVktVfXMu4WLHJaxgl4Kzz" Bounds="586,471" />
             <Node Bounds="597,760,45,19" Id="M3jRZ6zKs6yLxKQfuXh6G5">
               <p:NodeReference LastCategoryFullName="Main" LastDependency="visual.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -110,7 +110,7 @@
               <Pin Id="UpZXS89VcVfPMiVmf1SWB2" Name="Entity" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="MONhEDInuyQPe7QcV4x461" Bounds="761,699" />
-            <Node Bounds="601,300,45,26" Id="KJdQzksz1Y3QPUv6nK5Osk">
+            <Node Bounds="670,240,45,26" Id="KJdQzksz1Y3QPUv6nK5Osk">
               <p:NodeReference LastCategoryFullName="IO.Path" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="4026531840" Name="Path" NeedsToBeDirectParent="true">
@@ -121,7 +121,7 @@
               <Pin Id="UfGjF8fJ3WrQLcTgYluMkL" Name="Input" Kind="StateInputPin" />
               <Pin Id="LWFWEzxoQTCNmvROLz6FO0" Name="Parent" Kind="OutputPin" />
             </Node>
-            <Node Bounds="522,260,48,19" Id="AH536BBynmSPhSylTk5f1J">
+            <Node Bounds="591,200,48,19" Id="AH536BBynmSPhSylTk5f1J">
               <p:NodeReference LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToPath" />
@@ -129,7 +129,7 @@
               <Pin Id="Rx13wY235iAOSwx9TesqOc" Name="Input" Kind="InputPin" />
               <Pin Id="Twq19OINqzyLlyecPdgNeh" Name="Result" Kind="OutputPin" />
             </Node>
-            <Node Bounds="522,340,55,19" Id="L03DvkAxXsGPFqseyD8khI">
+            <Node Bounds="591,280,55,19" Id="L03DvkAxXsGPFqseyD8khI">
               <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -4255,18 +4255,7 @@
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
       <Patch Id="QZZr6INyfKdN9Ok73l4P7Y">
-        <Canvas Id="O1IArqFuPr6LzNJyhVgirq" CanvasType="Group">
-          <Node Bounds="603,812,78,19" Id="RT2RoXpoSpoMLZkFDrqzJL">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="visual.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="GripperModel" />
-            </p:NodeReference>
-            <Pin Id="NLRVxe5JvZuOvgvfRVHUN1" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="INx8kvgzVm0OR9dbTaNU0R" Name="Entity" Kind="OutputPin" />
-            <Pin Id="OcerjVFq60pLFVsrqPGGZ3" Name="GripperContext" Kind="InputPin" />
-            <Pin Id="AHrju7zDVuWPSqyzF9ZSfO" Name="Transformation" Kind="InputPin" DefaultValue="1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1" />
-          </Node>
-        </Canvas>
+        <Canvas Id="O1IArqFuPr6LzNJyhVgirq" CanvasType="Group" />
         <Patch Id="Di9xRhfDn2YNYndZXZI76K" Name="Create" />
         <Patch Id="EB6mEYfWClEMwNpcmudCG8" Name="Update" />
         <ProcessDefinition Id="DnixsoIjbUjMWgnzXfodOZ">
@@ -4277,6 +4266,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="OoXckqDk7nfNVNYwsq3u3N" Location="VL.Stride" Version="2025.7.0-0243-gb199e08460" />
-  <DocumentDependency Id="U1Rww3SDp3wNNeCcaWxlsf" Location="../VL.Devices.Robotiq.vl" />
-  <DocumentDependency Id="MlVpESDitl3NWhML7I91IH" Location="../VL.Devices.Robotiq.HDE.vl" />
+  <DocumentDependency Id="LemRMujEHBhOszQsFExZFa" Location="./VL.Devices.Robotiq.HDE.vl" />
 </Document>

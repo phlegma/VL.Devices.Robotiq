@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2024.6.6" Version="0.128">
-  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" Version="2024.6.6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2025.7.0-0243-gb199e08460" Version="0.128">
+  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" Version="2025.7.0-0243-gb199e08460" />
   <Patch Id="F3zfS5isRivNkKxBaDRyac">
     <Canvas Id="L49cbDUCCK9N3XQtU7qKcI" DefaultCategory="Devices.Robotiq" CanvasType="FullCategory">
       <Canvas Id="MGocd03SoMZQd1RgtsNCQq" Name="Internal" Position="68,319">
@@ -1307,6 +1307,7 @@
               <Pin Id="NdE720KZwp6PujYpOJFuHt" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="KQbo88jUojkMjcgNEh6YYR" Name="IP Adresse" Kind="InputPin" DefaultValue="" />
               <Pin Id="KmNDEsqluQ4LQ6B4ypHUQH" Name="Enable" Kind="InputPin" />
+              <Pin Id="QdsLLAZ0TDWM6asrxpFWXR" Name="Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="GTkTl1SUrcvNPRXaqF2RaS" Name="Client" Kind="OutputPin" />
               <Pin Id="QxgEQzJgN1OPiRfDvUG31h" Name="Is Connected" Kind="OutputPin" />
             </Node>
@@ -2806,6 +2807,7 @@
         </Patch>
       </Node>
       <Overlay Id="SMBUY3OqhtvP1yPoe9ATmY" Name="Input register" Bounds="83,568,227,300" />
+      <Canvas Id="ChDWMsBSqwFM7XV0O0n91D" Name="Visualisation" Position="311,310" BordersChecked="false" />
     </Canvas>
     <!--
 
@@ -3036,6 +3038,7 @@
             <Pin Id="TJoh61xWXdrM5VwZ79FzhW" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="MjZ9BBxIr6aMkDy1MR6V3L" Name="IP Adresse" Kind="InputPin" DefaultValue="" />
             <Pin Id="O9AyD6Zm8zlMYmebuVUDE4" Name="Enable" Kind="InputPin" />
+            <Pin Id="GbGpSIte6GSN5dWAWRI4rs" Name="Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="TnkRL3vFqrSQccNmRnWytx" Name="Client" Kind="OutputPin" />
             <Pin Id="RvVGJM7YppJNQPQWea5x4G" Name="Is Connected" Kind="OutputPin" />
           </Node>
@@ -3468,7 +3471,7 @@
   </Patch>
   <PlatformDependency Id="TiSbCGj3zPjLNc05w1TcCk" Location="System.Runtime" />
   <PlatformDependency Id="U2i1i9RGvBSQZyyYc6NPw3" Location="System.Memory" />
-  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" Version="2024.6.6" />
+  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" Version="2025.7.0-0243-gb199e08460" />
   <NugetDependency Id="RdQBdw9g2ceNuvvj0F7rad" Location="System.Collections" Version="4.3.0" />
   <NugetDependency Id="Ve66eEAdM1nM98Pnfwni8c" Location="VL.IO.Modbus" Version="0.0.5-alpha" />
 </Document>

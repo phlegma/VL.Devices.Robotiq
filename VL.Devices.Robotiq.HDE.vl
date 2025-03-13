@@ -4582,5 +4582,5 @@
   <DocumentDependency Id="AkLwgV60xVKM3BmldTAOGY" Location="./VL.Devices.Robotiq.vl" />
   <NugetDependency Id="SKaCCVHsCy4PT7uq7rStaf" Location="VL.Audio.UI" Version="1.9.9" />
   <NugetDependency Id="MjpJ0kYIhbBOCBksyI3cpP" Location="VL.Stride" Version="2025.7.0-0243-gb199e08460" />
-  <DocumentDependency Id="MlWvmu1KWn8M3HYOQeMlRM" Location="./vl/GripperVisualization.vl" IsForward="true" />
+  <DocumentDependency Id="F8oZ9lxWqAdQL3arQKQRTN" Location="./VL.Devices.Robotiq.Visualisation.vl" />
 </Document>
