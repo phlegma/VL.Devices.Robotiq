@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2025.7.0-0214-ge19c6f6088" Version="0.128">
-  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2025.7.0-0214-ge19c6f6088" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2025.7.0-0243-gb199e08460" Version="0.128">
+  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2025.7.0-0243-gb199e08460" />
   <Patch Id="F7bnzPLW06JPZzJNwudf2b">
     <Canvas Id="Bir0z0GB6wqMBKzMwb1Y5m" DefaultCategory="HDE" CanvasType="FullCategory">
       <Canvas Id="S8MridbZ8ALNHSPo3Tpn7I" Name="UI" Position="63,198">
@@ -311,9 +311,9 @@
                   <Choice Kind="ProcessAppFlag" Name="GripperModel" />
                 </p:NodeReference>
                 <Pin Id="BpoUrJvDZOPMtenvhQYclz" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="N73PhemLurYQWW9M4JfpM7" Name="GripperContext" Kind="InputPin" />
                 <Pin Id="VC1MP8lHL87LHuWSwP1P8Z" Name="Transformation" Kind="InputPin" />
                 <Pin Id="FSHV5UStoHEMo3rI5KITjK" Name="Entity" Kind="OutputPin" />
-                <Pin Id="N73PhemLurYQWW9M4JfpM7" Name="GripperContext" Kind="InputPin" />
               </Node>
               <Node Bounds="764,510,53,19" Id="FFzm0cXFbtoN24xStQXQpE">
                 <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
@@ -346,6 +346,40 @@
                 <Pin Id="BJqjvdUFcAeMGKNFbmhoRW" Name="View Rotation" Kind="InputPin" />
                 <Pin Id="IFP36lVdfxtMiZLe2X14qV" Name="Output" Kind="OutputPin" />
               </Node>
+              <Node Bounds="735,460,45,19" Id="URClwqkiFLVP9oWqaFGSDj">
+                <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Rotate" />
+                </p:NodeReference>
+                <Pin Id="Sw4E6tc75v9L7O6fehD0Sw" Name="Input" Kind="InputPin" />
+                <Pin Id="RAP0SEGpewdL5ttAa4ugLs" Name="Rotation" Kind="InputPin" />
+                <Pin Id="CCNKSw5VgWQPoBZiahnxdX" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Pad Id="VeYqKELhoYwL5yNZP588vF" Comment="Rotation" Bounds="777,411,35,43" ShowValueBox="true" isIOBox="true" Value="0.25, 0, 0">
+                <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Vector3" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Node Bounds="735,380,58,19" Id="OdZoZNrferLMGAsBQs0JdB">
+                <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="3D" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="OperationCallFlag" Name="Translate" />
+                </p:NodeReference>
+                <Pin Id="EjKdqlzDzMhPiUMnbecMOD" Name="Input" Kind="InputPin" />
+                <Pin Id="N7oVizRAHazLw4iFO56v4u" Name="Translation" Kind="InputPin" />
+                <Pin Id="DPNFEcagaBIMQ2EsNZNtgu" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Pad Id="BtTcEECZnLlMLEpASgRba5" Comment="Translation" Bounds="790,340,35,43" ShowValueBox="true" isIOBox="true" Value="0, -0.1, 0">
+                <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="Vector3" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
             <Patch Id="HeEE7QxSbTINLbp5oZ6Fqd" Name="Create" />
             <Patch Id="Njxm3k70ee8Pca4VLYQwfp" Name="Update" ManuallySortedPins="true">
@@ -417,6 +451,10 @@
             <Link Id="N5EfPnzqwd6MWTZbrRIywh" Ids="FSHV5UStoHEMo3rI5KITjK,JvpoUJhjF7VNgmhDeREpVA" />
             <Link Id="EllBdY2oHNgPHtoihMhboc" Ids="HKMRIZCnLwyO8jzwZzet4a,BJqjvdUFcAeMGKNFbmhoRW" />
             <Link Id="EkO7Z1IbkcvL81EpXYFQzh" Ids="IFP36lVdfxtMiZLe2X14qV,U4BCGHPEGsVNKQa4LXGIf3" />
+            <Link Id="U6VvdtVGXG6LnK8WHHnCjB" Ids="CCNKSw5VgWQPoBZiahnxdX,VC1MP8lHL87LHuWSwP1P8Z" />
+            <Link Id="CIQHCFPrjPgOW32SavksU5" Ids="VeYqKELhoYwL5yNZP588vF,RAP0SEGpewdL5ttAa4ugLs" />
+            <Link Id="KGnzQ3ZKZteMQpN2mFVTap" Ids="DPNFEcagaBIMQ2EsNZNtgu,Sw4E6tc75v9L7O6fehD0Sw" />
+            <Link Id="OK60IxDCVMNPEMyflolaPd" Ids="BtTcEECZnLlMLEpASgRba5,N7oVizRAHazLw4iFO56v4u" />
           </Patch>
         </Node>
         <!--
@@ -624,7 +662,7 @@
                 <Pin Id="MeJzOexnj4ZM7kEVBBA6WB" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Ap3LBsmHA9ZQXw8fuKizA7" Name="Components" Kind="InputPin" />
                 <Pin Id="QPFR3L0nBBaQQ8tjkUhgaF" Name="Children" Kind="InputPin" />
-                <Pin Id="HD2vZp9sdb2PI0JfinvY7y" Name="Initial Interest" Kind="InputPin" DefaultValue="0, -0.01, -0.1" />
+                <Pin Id="HD2vZp9sdb2PI0JfinvY7y" Name="Initial Interest" Kind="InputPin" />
                 <Pin Id="L4dHxjtT5LpPdT5vB9Tvwj" Name="Initial Yaw" Kind="InputPin" DefaultValue="1.45" />
                 <Pin Id="DfdhJwO93kCOJh0W1CCBTx" Name="Initial Pitch" Kind="InputPin" />
                 <Pin Id="NfWbPilsUERQdmrpsOAW1E" Name="Initial Distance" Kind="InputPin" DefaultValue="-0.38" />
@@ -734,7 +772,7 @@
                   <Choice Kind="OperationCallFlag" Name="+" />
                 </p:NodeReference>
                 <Pin Id="T3aNoBrUOrvM2tUOZgBVZY" Name="Input" Kind="InputPin" />
-                <Pin Id="PQHphPtXjTxNmgF1q1ESHo" Name="Input 2" Kind="InputPin" DefaultValue="0.42" />
+                <Pin Id="PQHphPtXjTxNmgF1q1ESHo" Name="Input 2" Kind="InputPin" />
                 <Pin Id="AQf5bYK7Sc1LUFLXflV2tC" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="IdBhGdjiXzXO2ixmApOndr" Bounds="659,320" />
@@ -4535,14 +4573,14 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2025.7.0-0214-ge19c6f6088" />
-  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2025.7.0-0214-ge19c6f6088" />
-  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2025.7.0-0214-ge19c6f6088" />
-  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" Version="2025.7.0-0214-ge19c6f6088" />
-  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" Version="2025.7.0-0214-ge19c6f6088" />
+  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2025.7.0-0243-gb199e08460" />
+  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2025.7.0-0243-gb199e08460" />
+  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2025.7.0-0243-gb199e08460" />
+  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" Version="2025.7.0-0243-gb199e08460" />
+  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" Version="2025.7.0-0243-gb199e08460" />
   <NugetDependency Id="DpKJnuvE2p0LNJJcJLf6N8" Location="VL.IO.Midi" Version="1.1.6" />
   <DocumentDependency Id="AkLwgV60xVKM3BmldTAOGY" Location="./VL.Devices.Robotiq.vl" />
   <NugetDependency Id="SKaCCVHsCy4PT7uq7rStaf" Location="VL.Audio.UI" Version="1.9.9" />
-  <NugetDependency Id="MjpJ0kYIhbBOCBksyI3cpP" Location="VL.Stride" Version="2025.7.0-0214-ge19c6f6088" />
+  <NugetDependency Id="MjpJ0kYIhbBOCBksyI3cpP" Location="VL.Stride" Version="2025.7.0-0243-gb199e08460" />
   <DocumentDependency Id="MlWvmu1KWn8M3HYOQeMlRM" Location="./vl/GripperVisualization.vl" IsForward="true" />
 </Document>
