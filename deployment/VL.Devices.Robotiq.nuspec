@@ -7,10 +7,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.Robotiq</id>
-    <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>1.0.4</version>
+    <!-- For more about versions see:
+    https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
+    <version>1.1.0</version>
     <title>VL.Devices.Robotiq</title>
-    <!-- Provide authors and projectUrl --> 
+    <!-- Provide authors and projectUrl -->
     <authors>phlegma</authors>
     <projectUrl>https://github.com/phlegma/VL.Devices.Robotiq</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -26,7 +27,7 @@
   </metadata>
   <files>
     <!-- <file src="..\lib\**\*.dll" target="lib\" exclude="" /> -->
-	  <!-- <file src="..\runtimes\**\*.dll" target="runtimes\" exclude="" /> -->
+    <!-- <file src="..\runtimes\**\*.dll" target="runtimes\" exclude="" /> -->
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
     <file src="nugeticon.png" target="icon\" />

@@ -259,7 +259,7 @@
               <ControlPoint Id="Kuyo8k65k3HOZ3WnMO6X0e" Bounds="537,135" />
               <ControlPoint Id="Vv0U4lgJVssQV0byo6Zkul" Bounds="238,101" />
               <ControlPoint Id="El7x8uKfsuFPhNRWN3zeay" Bounds="458,115" />
-              <ControlPoint Id="KmVMddC3ZHtOjR1W7sJRSD" Bounds="874,-99" />
+              <ControlPoint Id="KmVMddC3ZHtOjR1W7sJRSD" Bounds="650,-119" />
               <Node Bounds="424,74,85,19" Id="AFSPWOdjlf8NYMMPXVc6cz">
                 <p:NodeReference LastCategoryFullName="ImGui.Styling" LastDependency="VL.ImGui.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
