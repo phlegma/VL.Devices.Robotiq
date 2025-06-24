@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2025.7.0-0243-gb199e08460" Version="0.128">
-  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" Version="2025.7.0-0243-gb199e08460" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
+  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
   <Patch Id="F3zfS5isRivNkKxBaDRyac">
     <Canvas Id="L49cbDUCCK9N3XQtU7qKcI" DefaultCategory="Devices.Robotiq" CanvasType="FullCategory">
       <Canvas Id="MGocd03SoMZQd1RgtsNCQq" Name="Internal" Position="68,319">
@@ -2821,7 +2821,7 @@
       </p:NodeReference>
       <Patch Id="BbIqhBIPinoOwep1Vt5BjH">
         <Canvas Id="BBTES3a2MGTN6leDe2szcS" CanvasType="Group">
-          <Node Bounds="543,396,385,356" Id="RqXcq7jE62VQCqpuc2TEow">
+          <Node Bounds="543,396,396,356" Id="RqXcq7jE62VQCqpuc2TEow">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -2833,18 +2833,8 @@
             <Patch Id="PYNbQ08aP6MN8oNFVL72YE" ManuallySortedPins="true">
               <Patch Id="ULQYdpYCTiuNit7syTLGGM" Name="Create" ManuallySortedPins="true" />
               <Patch Id="MK6zBxqWUFrNuYFaDu56Me" Name="Then" ManuallySortedPins="true" />
-              <Node Bounds="654,487,52,26" Id="CXL42OcvKhVPtanqzU9a67">
-                <p:NodeReference LastCategoryFullName="System.Span" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="Span" />
-                  <Choice Kind="OperationCallFlag" Name="ToArray" />
-                </p:NodeReference>
-                <Pin Id="DYSvaw8LqNLQAEFiImXVEG" Name="Input" Kind="StateInputPin" />
-                <Pin Id="TuLLNOufKuYLtllG6eIpuE" Name="Output" Kind="StateOutputPin" />
-                <Pin Id="PBZq6apqhucPyMgUc7YApw" Name="Result" Kind="OutputPin" />
-              </Node>
-              <Pad Id="R260IrOLa4gMAArP3DMBLA" Comment="" Bounds="843,542,54,120" ShowValueBox="true" isIOBox="true" />
-              <Node Bounds="555,451,104,26" Id="MqMmc1lUXLxNmbxdAY13v9">
+              <Pad Id="R260IrOLa4gMAArP3DMBLA" Comment="" Bounds="854,550,54,120" ShowValueBox="true" isIOBox="true" />
+              <Node Bounds="555,440,104,26" Id="MqMmc1lUXLxNmbxdAY13v9">
                 <p:NodeReference LastCategoryFullName="IO.Modbus.TCP" LastDependency="VL.IO.Modbus.vl" OverloadStrategy="AllPinsThatAreNotCommon">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ReadInputRegisters" />
@@ -3396,8 +3386,6 @@
           <Fragment Id="EeI9Ay0hazTNqdOlA4V9zA" Patch="EA5Vta35ZkKLc8qn5ycM0d" Enabled="true" />
           <Fragment Id="PuR8bQxJWFwMVKOMrrCsJi" Patch="PC7fJb4qlRBNSTLUt6WJDH" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="QDnI4NfxjQXN2APOogb4PT" Ids="PBZq6apqhucPyMgUc7YApw,TWACZCfdyGCOgjaNB5ZXN1" />
-        <Link Id="QiIOq7Ek5p0LLSZavAaRcs" Ids="PBZq6apqhucPyMgUc7YApw,R260IrOLa4gMAArP3DMBLA" />
         <Link Id="RmXFgZ2K0MdMEdw0sjVLkQ" Ids="PpTxgB42RcEM1Rg2ZXJvg0,NEDYq4ST2vKPh3EivxZuXy" />
         <Link Id="AWRs8ei5NOdNV3x3BNZAhz" Ids="Ksy5BC5Gmw1MP2D2YN94zc,GkHRxMui1aTMGhWHM6YDrH" />
         <Link Id="VQwSZyNYGpxMYf7uqRHSNH" Ids="Hd2haE4vIPAQL6WRrxUPkH,OW1X6sYDgkrNFyeq75ieaL" />
@@ -3407,7 +3395,6 @@
         <Link Id="DyRz53hAksYOCc1WsZsDZS" Ids="UZVgXfm7vVGOFW426HYqCz,K7JXq70k38nMyqw2I6spDe" />
         <Link Id="BPnAprU8oq0OEyMLTyWJ3T" Ids="QlJcVSmnYb9LE47qTwjQsH,TPAM8Zc6VRDMDRxtX6bUZw" />
         <Link Id="PomoyNGJzjQNSxpulaf33M" Ids="CpNAtdNz1ruOnv3b8cQSIz,COshC5FFx3oNbeKDoWFdMk" />
-        <Link Id="JyD5ofDsK8oL1wIrcNeQ2C" Ids="VgHNbcJp73COPLntReLIy5,DYSvaw8LqNLQAEFiImXVEG" />
         <Link Id="UaIsmIKdveTNcqBVXIv5qZ" Ids="LquRd0P4rp4OOK5oUNzllc,PAYw94Me0BrMHrP5PLpixF" />
         <Link Id="USICPPQA4W7Pc9ieE24bC1" Ids="LquRd0P4rp4OOK5oUNzllc,DRlQHlXfbFQMkURQm1XyZH" />
         <Link Id="TlGub7FLsiGPbxx3Pi7Pqa" Ids="TnkRL3vFqrSQccNmRnWytx,Um9rV6DPcr6Qb3lW3QiUhG" />
@@ -3418,7 +3405,6 @@
         <Link Id="VRJqS63jGruMvxTfVDl40f" Ids="TnkRL3vFqrSQccNmRnWytx,GA0epBBgoi0L4Gt9NMM5iL" />
         <Link Id="I7rnIrptwFMPIwvyJ2GZ5H" Ids="MApCUVJZbPOPjyqfzoDzKd,DjRtOWVTeknPVXjH1qMADA" />
         <Link Id="DkQldTuhdXMPrBQA2LncPd" Ids="Mj0tfaguHO9LIvFUEMFeW4,Ba7YQnEbhRdPn2Uxr0UA1E" />
-        <Link Id="ITwSk1rkXtcLK58AiEEiDT" Ids="PBZq6apqhucPyMgUc7YApw,S7FN2FuiTgKPWtEIWfAxmV" />
         <Link Id="LICu3WvYZwVOiFBvhfhwTu" Ids="Bx8cNSgoFOQOBMDK1iNGyt,PAtCwaA24y6MqfAVRx2HBX" IsHidden="true" />
         <Link Id="BmCIog0Y3QTPy3N3XWw1qL" Ids="PAtCwaA24y6MqfAVRx2HBX,B2LGg8ArLcoLFOt7uS3dAI" />
         <Link Id="BQUNELqGAXrNg6iVe2PsmR" Ids="Ba7YQnEbhRdPn2Uxr0UA1E,RIeKZnor9LjPDJYjO1bIGv" />
@@ -3466,12 +3452,15 @@
         <Link Id="RJVmVAL3x7HLyRMDp9xzal" Ids="Vjq74cKnniMNW7bqdqV7F7,CLLp7vyyOZWQBxh36NT6eD" />
         <Link Id="S2LS6MfqTWJOgVArYmBFMF" Ids="JVAdUU9nAXcMNhamgMnj3H,MYlQMhopeC4NBSBQoHXGd7" />
         <Link Id="RuYaYgSERMYOuh1jwZbe98" Ids="CjLtRQ9KQoWM9PheDWMPQm,O9AyD6Zm8zlMYmebuVUDE4" />
+        <Link Id="DvDzTDfuB1SPODDpGz7Sbs" Ids="VgHNbcJp73COPLntReLIy5,TWACZCfdyGCOgjaNB5ZXN1" />
+        <Link Id="CCztA9hKkEkPPnIjcdbR6N" Ids="VgHNbcJp73COPLntReLIy5,S7FN2FuiTgKPWtEIWfAxmV" />
+        <Link Id="AP70HbULV0aPFLQ6BTEGYr" Ids="VgHNbcJp73COPLntReLIy5,R260IrOLa4gMAArP3DMBLA" />
       </Patch>
     </Node>
   </Patch>
   <PlatformDependency Id="TiSbCGj3zPjLNc05w1TcCk" Location="System.Runtime" />
   <PlatformDependency Id="U2i1i9RGvBSQZyyYc6NPw3" Location="System.Memory" />
-  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" Version="2025.7.0-0243-gb199e08460" />
+  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" Version="2025.7.0-0369-g117540fa59" />
   <NugetDependency Id="RdQBdw9g2ceNuvvj0F7rad" Location="System.Collections" Version="4.3.0" />
-  <NugetDependency Id="Ve66eEAdM1nM98Pnfwni8c" Location="VL.IO.Modbus" Version="0.0.5-alpha" />
+  <NugetDependency Id="Ve66eEAdM1nM98Pnfwni8c" Location="VL.IO.Modbus" Version="0.0.6" />
 </Document>
