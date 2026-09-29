@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JgRmNytJGwPMIPsyMKmcYz" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
-  <NugetDependency Id="Qu0TGz2zDkWP1mNSbYwbPj" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JgRmNytJGwPMIPsyMKmcYz" LanguageVersion="2026.8.0-0131-g2f3a63d2aa" Version="0.128">
+  <NugetDependency Id="Qu0TGz2zDkWP1mNSbYwbPj" Location="VL.CoreLib" />
   <Patch Id="VqSaI2qDqszPN39SwfW0Ka">
     <Canvas Id="CRdxt4Pq7pVP0yxA9G0EG9" DefaultCategory="Robotiq" CanvasType="FullCategory">
       <!--
@@ -31,7 +31,6 @@
                 <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
               </p:NodeReference>
               <Pin Id="HjGAW2q45b6NFzlKHUQvt8" Name="Output" Kind="OutputPin" />
-              <Pin Id="St6Vo9xcLhMLfgMfuxjZad" Name="Node Context" Kind="InputPin" IsHidden="true" />
             </Node>
             <Node Bounds="591,340,25,19" Id="BS7HoqalO7JOiyNwbgldCF">
               <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -4249,6 +4248,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OoXckqDk7nfNVNYwsq3u3N" Location="VL.Stride" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="OoXckqDk7nfNVNYwsq3u3N" Location="VL.Stride" />
   <DocumentDependency Id="GDFDpx1erfWOkXBsQGtNeU" Location="./VL.Devices.Robotiq.HDE.vl" />
 </Document>

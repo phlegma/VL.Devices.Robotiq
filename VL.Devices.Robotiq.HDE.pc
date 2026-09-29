@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublicChannels>
+  <Channel Name="Gripper.Force" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.IndividualFingersForce" Type="Spread [Collections]&lt;Integer32 [Primitive]&gt;" />
+  <Channel Name="Gripper.IndividualFingersPosition" Type="Spread [Collections]&lt;Integer32 [Primitive]&gt;" />
+  <Channel Name="Gripper.IndividualFingersSpeed" Type="Spread [Collections]&lt;Integer32 [Primitive]&gt;" />
+  <Channel Name="Gripper.Modes" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.Position" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.SciccorFingersForce" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.SciccorFingersPosition" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.SciccorFingersSpeed" Type="Integer32 [Primitive]" />
+  <Channel Name="Gripper.Speed" Type="Integer32 [Primitive]" />
+</PublicChannels>

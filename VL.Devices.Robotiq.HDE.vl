@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
-  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LMfB9hN87kNMpjUJaxb1F2" LanguageVersion="2026.8.0-0131-g2f3a63d2aa" Version="0.128">
+  <NugetDependency Id="M5KjIwXBlsjPW0u3Lyubp6" Location="VL.CoreLib" />
   <Patch Id="F7bnzPLW06JPZzJNwudf2b">
     <Canvas Id="Bir0z0GB6wqMBKzMwb1Y5m" DefaultCategory="HDE" CanvasType="FullCategory">
       <Canvas Id="S8MridbZ8ALNHSPo3Tpn7I" Name="UI" Position="63,198">
@@ -325,6 +325,7 @@
                 <Pin Id="R96zRxHj6u9QPje6tIqtNZ" Name="Value" Kind="InputPin" />
                 <Pin Id="Qz2F3MAmLGaNcMwr2iJP1D" Name="Output" Kind="OutputPin" />
                 <Pin Id="J1kOYw1JLptNkbxRVzu9NO" Name="Value" Kind="OutputPin" />
+                <Pin Id="A5RLzM3jQ1ULlDFnjwoSRG" Name="Author" Kind="InputPin" IsHidden="true" />
               </Node>
               <Node Bounds="764,570,45,26" Id="CHM1dHxs2o2MkeHn9QktQx">
                 <p:NodeReference LastCategoryFullName="Reactive.Channel" LastDependency="VL.CoreLib.vl">
@@ -854,6 +855,7 @@
               <Pin Id="ASYOcAY6o5mMYrdL00lNaU" Name="Value" Kind="InputPin" />
               <Pin Id="OA2MwZI5dJMOH0JYcSwr3J" Name="Output" Kind="OutputPin" />
               <Pin Id="QmFeNK3he3XP6HXjnsLnIP" Name="Value" Kind="OutputPin" />
+              <Pin Id="ArfqnbJPBoZLmuD0mXtHKG" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Node Bounds="310,417,53,19" Id="Q4ElANv5m0VLCSH9oj30Qu">
               <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
@@ -865,6 +867,7 @@
               <Pin Id="M84mewWQHYCNf5XrH0HJj2" Name="Value" Kind="InputPin" />
               <Pin Id="BdqVuXjpIdeNFnKyWegYh5" Name="Output" Kind="OutputPin" />
               <Pin Id="VGEOho6PPTGL57Le5Wc98t" Name="Value" Kind="OutputPin" />
+              <Pin Id="ELzdTiLO4AiO90cmP9Tmy2" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <ControlPoint Id="Qk3ZuxcKFUFPClYnaR4N0E" Bounds="312,536" />
             <Pad Id="AyAD1dbC0XiQGuAvYSV3Z3" Comment="" Bounds="311,384,124,15" ShowValueBox="true" isIOBox="true" Value="192.168.1.11">
@@ -905,6 +908,7 @@
               <Pin Id="RPipUEiZoFXNuxZsleSQsR" Name="Value" Kind="InputPin" />
               <Pin Id="OvBvuErdoBpPmGrTisBbHi" Name="Output" Kind="OutputPin" />
               <Pin Id="M46nHqe1ZPOMalESXppZQh" Name="Value" Kind="OutputPin" />
+              <Pin Id="P8hY9niKXXxP2jPSj4ZVX5" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="MTGHCBe1agLMcfKeMkNNS1" Comment="" Bounds="767,374,35,35" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -926,6 +930,7 @@
               <Pin Id="MxLYmwaIdMIM5o5PcfUn9X" Name="Value" Kind="InputPin" />
               <Pin Id="RYlyQsNDSDIPc23NAwt6cC" Name="Output" Kind="OutputPin" />
               <Pin Id="VAgq48cj4A9PfKlY9IS1zu" Name="Value" Kind="OutputPin" />
+              <Pin Id="Ulfflz3rYizQCueYtFsbs1" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="D496Au4wJL7OnuN9ViNEer" Comment="" Bounds="668,373,35,35" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1591,6 +1596,7 @@
               <Pin Id="IBGRpAlUEsYQPBAC9q37WJ" Name="Value" Kind="InputPin" />
               <Pin Id="DmaJHxihhjWNQx4EZA8nhf" Name="Output" Kind="OutputPin" />
               <Pin Id="K5PBA8atpq7Nv6aWjNxuUK" Name="Value" Kind="OutputPin" />
+              <Pin Id="HCahPZCcJPgLKbRJRflGcv" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <ControlPoint Id="CGeDioqDMCPOJaWknL5T6s" Bounds="827,698" />
             <Pad Id="Dc1u8aiERJbQLnYYzund7H" SlotId="DvjfI3EGv9VLCqspjjOGPt" Bounds="978,664" />
@@ -1605,6 +1611,7 @@
               <Pin Id="ILgdDHNl7aEL4BSu4rugk4" Name="Value" Kind="InputPin" />
               <Pin Id="OsN7C1Nf9ElM4PxRhzZtKn" Name="Output" Kind="OutputPin" />
               <Pin Id="EFANeCLA8YaPhlNe0okRFd" Name="Value" Kind="OutputPin" />
+              <Pin Id="SswIc84IKaSLOYXFdbXrMx" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <ControlPoint Id="OaWsSvsXJSiMUMypNo9Zjt" Bounds="978,698" />
             <Pad Id="R8tWNUQ2SYcPgfsTPLgzOl" Comment="" Bounds="827,593,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
@@ -1629,6 +1636,7 @@
               <Pin Id="HabiHNrqQ3zMOtnwADd5Un" Name="Value" Kind="InputPin" />
               <Pin Id="OJ7h5eJcs9kN49vdCp5w22" Name="Output" Kind="OutputPin" />
               <Pin Id="NauBxGh9CptP1DOKa4De7M" Name="Value" Kind="OutputPin" />
+              <Pin Id="I3U35aozZnCNwLEcU716ei" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="FBayOERoJRwPw0cS6pz9IA" Comment="" Bounds="114,591,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1648,6 +1656,7 @@
               <Pin Id="NheSZFa6LTTMi9Krt8GoXv" Name="Value" Kind="InputPin" />
               <Pin Id="FwxfDcXayRJM4mopfQLjZ6" Name="Output" Kind="OutputPin" />
               <Pin Id="GVtT2A0KSIiMOOvErvsagI" Name="Value" Kind="OutputPin" />
+              <Pin Id="TQSJ2caiUk3NOtFUAYz8Wr" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="PLOAPwbhhaOOG4rnob3IKY" Comment="" Bounds="306,591,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1667,6 +1676,7 @@
               <Pin Id="Fc6Iw06zttrP0FSb0jvd85" Name="Value" Kind="InputPin" />
               <Pin Id="Q7uY8v7WIIZLO3il1HsjBF" Name="Output" Kind="OutputPin" />
               <Pin Id="VBbPo4tXXmaPElOtytNcKJ" Name="Value" Kind="OutputPin" />
+              <Pin Id="KHdJY2ZLUILO9Kmg5zCJB5" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="GYctxUZQVr9O7QwjHDxs8t" Comment="" Bounds="478,591,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1686,6 +1696,7 @@
               <Pin Id="AUHZFcMhAeSQCdP5MBzarb" Name="Value" Kind="InputPin" />
               <Pin Id="PSXbT3Zn8rxOA6GfKKXbGT" Name="Output" Kind="OutputPin" />
               <Pin Id="MOLS1nlmGXdO8CDuEQz6Bk" Name="Value" Kind="OutputPin" />
+              <Pin Id="VPMojpayNmtPoC5hqg5utK" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="LiC87mjOP2yLxuBuVb5Ivg" Comment="" Bounds="1206,596,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1705,6 +1716,7 @@
               <Pin Id="UQja6huxHahLMoOSMmpsXn" Name="Value" Kind="InputPin" />
               <Pin Id="G8CbNgCWXwaLkQVJnnOEap" Name="Output" Kind="OutputPin" />
               <Pin Id="FUzlxZBiZVzOqfcnCyHlwi" Name="Value" Kind="OutputPin" />
+              <Pin Id="SaJR6cfBTCZLaVyF6xV18P" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="APbqiqSKnO7NOcina6cKkG" Comment="" Bounds="1353,597,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1724,6 +1736,7 @@
               <Pin Id="KPoKLy1MHPhPkktHDM5A92" Name="Value" Kind="InputPin" />
               <Pin Id="GkXVEXYn7OROnAz6Urn1WS" Name="Output" Kind="OutputPin" />
               <Pin Id="I3xxsoVOAH2MYtQ3ypDJI4" Name="Value" Kind="OutputPin" />
+              <Pin Id="MUm6qB50aCSPM3RuC0S1Ku" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="FKlZiajMRrJLgJ5qIlw7ri" Comment="" Bounds="1511,598,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1743,6 +1756,7 @@
               <Pin Id="RQ8xHGTsP8yNDJ7bS9vKCG" Name="Value" Kind="InputPin" />
               <Pin Id="ExyKcwiXrl5PLlye9S3Zjb" Name="Output" Kind="OutputPin" />
               <Pin Id="FC6qpVBltIeP2JlqgN33RI" Name="Value" Kind="OutputPin" />
+              <Pin Id="AqVRJEHSe4hMJeJ29clFVm" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="Slcbjeu8SGHNgsxE6R67R5" Comment="" Bounds="1645,596,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1762,6 +1776,7 @@
               <Pin Id="SaCTAAUY5F0M0W6YlT4qaS" Name="Value" Kind="InputPin" />
               <Pin Id="AJ1M1xlYuUHN8oueLNWluk" Name="Output" Kind="OutputPin" />
               <Pin Id="MeaJLmgaVJYLbxSWjghgfc" Name="Value" Kind="OutputPin" />
+              <Pin Id="AneQE3ryYCwQQ3koes7zgW" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="FxmX9FILqR4MHXrGleobFp" Comment="" Bounds="1870,601,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1781,6 +1796,7 @@
               <Pin Id="V3Vpxa0Bq9aMAQgbDtNTuE" Name="Value" Kind="InputPin" />
               <Pin Id="SP2tYUmI6ViPWfMZDK8V4V" Name="Output" Kind="OutputPin" />
               <Pin Id="FOnnJvPnW3FMrQsId65B6B" Name="Value" Kind="OutputPin" />
+              <Pin Id="NKizYocq276NrHrUtd8GtN" Name="Author" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="NjCaHGtLUnPO4QaQi10PIL" Comment="" Bounds="646,590,35,15" ShowValueBox="true" isIOBox="true" Value="-1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -3372,7 +3388,7 @@
               <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="String" />
-                <Choice Kind="OperationCallFlag" Name="Format" />
+                <Choice Kind="OperationNode" Name="Format (Version 1)" />
               </p:NodeReference>
               <Pin Id="DjXEi08u1I2LefXLLWxHHF" Name="Format" Kind="InputPin" />
               <Pin Id="Mi7c2Kv2rdOM8VotHakQwZ" Name="Input" Kind="StateInputPin" />
@@ -3401,7 +3417,7 @@
               <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="String" />
-                <Choice Kind="OperationCallFlag" Name="Format" />
+                <Choice Kind="OperationNode" Name="Format (Version 1)" />
               </p:NodeReference>
               <Pin Id="E7XBQBMyTJ6PNCjvkCSbNd" Name="Format" Kind="InputPin" />
               <Pin Id="VnimayYRT9CLeHofQgppL0" Name="Input" Kind="StateInputPin" />
@@ -3440,7 +3456,7 @@
               <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="String" />
-                <Choice Kind="OperationCallFlag" Name="Format" />
+                <Choice Kind="OperationNode" Name="Format (Version 1)" />
               </p:NodeReference>
               <Pin Id="OZZhjtaKpj8QT71zv6XFUo" Name="Format" Kind="InputPin" />
               <Pin Id="U8ds1qPJWysMPO1688ht4Y" Name="Input" Kind="StateInputPin" />
@@ -3469,7 +3485,7 @@
               <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="String" />
-                <Choice Kind="OperationCallFlag" Name="Format" />
+                <Choice Kind="OperationNode" Name="Format (Version 1)" />
               </p:NodeReference>
               <Pin Id="AVwmyVZ1iUYNO7NX0RQ7g5" Name="Format" Kind="InputPin" />
               <Pin Id="ApDVhyK4hq7PVEkeVkPoZf" Name="Input" Kind="StateInputPin" />
@@ -4593,14 +4609,14 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="RZ1cz496dpgNj0r1GJdwKs" Location="VL.HDE" />
+  <NugetDependency Id="IdDPloCqQavPJlhM5jY3Lb" Location="VL.Skia" />
+  <NugetDependency Id="U4rnJ58Je0dMe7sTAiWUhv" Location="VL.CoreLib.Windows" />
+  <NugetDependency Id="AIVK0t0VQEXOLWwEtoxK4M" Location="VL.ImGui" />
+  <NugetDependency Id="MwPDofZ3IsEPYak34ivVH8" Location="VL.ImGui.Skia" />
   <NugetDependency Id="DpKJnuvE2p0LNJJcJLf6N8" Location="VL.IO.Midi" Version="1.1.7" />
   <DocumentDependency Id="AkLwgV60xVKM3BmldTAOGY" Location="./VL.Devices.Robotiq.vl" />
   <NugetDependency Id="SKaCCVHsCy4PT7uq7rStaf" Location="VL.Audio.UI" Version="1.9.13" />
-  <NugetDependency Id="MjpJ0kYIhbBOCBksyI3cpP" Location="VL.Stride" Version="2025.7.0-0369-g117540fa59" />
+  <NugetDependency Id="MjpJ0kYIhbBOCBksyI3cpP" Location="VL.Stride" />
   <DocumentDependency Id="F8oZ9lxWqAdQL3arQKQRTN" Location="./VL.Devices.Robotiq.Visualisation.vl" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2025.7.0-0369-g117540fa59" Version="0.128">
-  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" Version="2025.7.0-0369-g117540fa59" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="ESTy9MRmvQEOzvGZ0NHb37" LanguageVersion="2026.8.0-0131-g2f3a63d2aa" Version="0.128">
+  <NugetDependency Id="OdhsXmXxxv6Nk2uBvvJ6kg" Location="VL.CoreLib" />
   <Patch Id="F3zfS5isRivNkKxBaDRyac">
     <Canvas Id="L49cbDUCCK9N3XQtU7qKcI" DefaultCategory="Devices.Robotiq" CanvasType="FullCategory">
       <Canvas Id="MGocd03SoMZQd1RgtsNCQq" Name="Internal" Position="68,319">
@@ -3460,7 +3460,7 @@
   </Patch>
   <PlatformDependency Id="TiSbCGj3zPjLNc05w1TcCk" Location="System.Runtime" />
   <PlatformDependency Id="U2i1i9RGvBSQZyyYc6NPw3" Location="System.Memory" />
-  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" Version="2025.7.0-0369-g117540fa59" />
-  <NugetDependency Id="RdQBdw9g2ceNuvvj0F7rad" Location="System.Collections" Version="4.3.0" />
+  <NugetDependency Id="FBFfBl8CnL3NLuoSh3b5DX" Location="VL.ImGui" />
+  <NugetDependency Id="RdQBdw9g2ceNuvvj0F7rad" Location="System.Collections" />
   <NugetDependency Id="Ve66eEAdM1nM98Pnfwni8c" Location="VL.IO.Modbus" Version="0.0.6" />
 </Document>
